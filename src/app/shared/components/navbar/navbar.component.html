@@ -1,0 +1,15 @@
+<nav class="navbar">
+    <div class="navbar-brand">
+      <a href="#">SpotifyClone</a>
+    </div>
+    <button class="navbar-toggle" (click)="toggleMenu()">
+      ☰
+    </button>
+    <app-search-bar />
+    <ul class="navbar-links" [class.active]="menuActive">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Search</a></li>
+      <li><a href="#">Library</a></li>
+      <li><a href="#">Profile</a></li>
+    </ul>
+  </nav>
